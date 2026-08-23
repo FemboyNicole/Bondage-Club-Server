@@ -74,7 +74,11 @@ var ChatRoomProduction = [
 	process.env.PRODUCTION9 || "",
 	process.env.PRODUCTION10 || "",
 	process.env.PRODUCTION11 || "",
-	process.env.PRODUCTION12 || ""
+	process.env.PRODUCTION12 || "",
+	process.env.PRODUCTION13 || "",
+	process.env.PRODUCTION14 || "",
+	process.env.PRODUCTION15 || "",
+	process.env.PRODUCTION16 || ""
 ];
 var NextMemberNumber = 1;
 var NextPasswordReset = 0;
