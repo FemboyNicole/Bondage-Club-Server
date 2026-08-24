@@ -45,7 +45,7 @@ var Options = {
 	secure: UseSecure
 };
 if ((process.env.CORS_ORIGIN0 != null) && (process.env.CORS_ORIGIN0 != ""))
-	Options.cors = { origin: [process.env.CORS_ORIGIN0 || "", process.env.CORS_ORIGIN1 || "", process.env.CORS_ORIGIN2 || "", process.env.CORS_ORIGIN3 || "", process.env.CORS_ORIGIN4 || "", process.env.CORS_ORIGIN5 || ""] };
+	Options.cors = { origin: [process.env.CORS_ORIGIN0 || "", process.env.CORS_ORIGIN1 || "", process.env.CORS_ORIGIN2 || "", process.env.CORS_ORIGIN3 || "", process.env.CORS_ORIGIN4 || "", process.env.CORS_ORIGIN5 || "", process.env.CORS_ORIGIN6 || "", process.env.CORS_ORIGIN7 || ""] };
 else
 	Options.cors = { origin: '*' };
 
